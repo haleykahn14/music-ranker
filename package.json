@@ -50,5 +50,6 @@
     "npm-run-all": "^4.1.5",
     "pino-colada": "^2.2.2"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "type": "module"
 }
