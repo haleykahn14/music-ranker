@@ -52,7 +52,7 @@ router.get('/callback', function(req, res){
       form: {
         code: code,
         redirect_uri: redirect_uri,
-        grant_type: 'client_credentials'
+        grant_type: 'authorization-code'
       },
       headers: {
         'content-type': 'application/x-www-form-urlencoded',
